@@ -1,0 +1,53 @@
+/* Requirement: tag selector (body) */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f4f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Requirement: tag selector (h2) */
+h2 {
+  color: #CC5500;
+}
+
+/* Requirement: styled id (#header) */
+#header {
+  background-color: #CC5500;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Requirement: styled class used on two elements (.card) */
+/* Requirement: box model properties (margin, padding, border) */
+.card {
+  background-color: white;
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px 30px;
+  border: 2px solid #d0d7e2;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 180px;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Requirement: tag selector (a) */
+a {
+  color: #CC5500;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Requirement: link color changes on hover */
+a:hover {
+  color: #5C2E00;
+  text-decoration: underline;
+}
